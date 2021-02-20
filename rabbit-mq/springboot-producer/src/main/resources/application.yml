@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: 60.190.138.133
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    publisher-confirms: false
+    publisher-returns: true
+
+server:
+  port: 8082

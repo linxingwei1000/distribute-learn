@@ -24,3 +24,5 @@ hs_err_pid*
 /.idea/
 /distribute-learn.iml
 /target/
+/rabbit-mq/springboot-consumer/target/
+/rabbit-mq/springboot-producer/target/

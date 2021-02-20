@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 60.190.138.133
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual
+        prefetch: 1
