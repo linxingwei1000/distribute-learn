@@ -26,3 +26,5 @@ hs_err_pid*
 /target/
 /rabbit-mq/springboot-consumer/target/
 /rabbit-mq/springboot-producer/target/
+/kafka/springboot-kafka/springboot-kafka.iml
+/kafka/kafka-basic-learn/kafka-basic-learn.iml
