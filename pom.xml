@@ -13,6 +13,7 @@
         <module>rabbit-mq</module>
         <module>rocket-mq</module>
         <module>kafka</module>
+        <module>shardingsphere-test</module>
     </modules>
 
     <parent>
@@ -135,6 +136,28 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.12</version>
+            </dependency>
+
+            <!-- shardingSphere -->
+            <dependency>
+                <groupId>org.apache.shardingsphere</groupId>
+                <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+                <version>4.1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.1.22</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.16</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.0.5</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
